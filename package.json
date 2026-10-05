@@ -1,0 +1,14 @@
+{
+  "name": "shemaforge",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "shemaforge": "./lib/cli.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
